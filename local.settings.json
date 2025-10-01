@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "java",
+    "DB_CONNECTION_STRING": "jdbc:sqlserver://grupo1duoc.database.windows.net:1433;database=BD_inventario;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;",
+    "DB_USER": "USER_INVENTARIO",
+    "DB_PASSWORD": "DCN11S3_grupo1",
+    "EVENT":"x"
+  }
+}
