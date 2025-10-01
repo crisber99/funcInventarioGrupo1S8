@@ -1,0 +1,16 @@
+{
+  "scriptFile" : "../func-inventario-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.bodega.FuncionBodega.handleBaseRequests",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "route" : "bodegas",
+    "methods" : [ "GET", "POST" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}

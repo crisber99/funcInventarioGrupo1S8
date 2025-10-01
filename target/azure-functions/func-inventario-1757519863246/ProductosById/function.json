@@ -1,0 +1,16 @@
+{
+  "scriptFile" : "../func-inventario-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.producto.FuncionProducto.handleIdRequests",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "route" : "productos/{id}",
+    "methods" : [ "GET", "PUT", "DELETE" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}

@@ -1,0 +1,9 @@
+{
+  "scriptFile" : "../func-inventario-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.producto.FuncionEvent.run",
+  "bindings" : [ {
+    "type" : "eventGridTrigger",
+    "direction" : "in",
+    "name" : "eventGridEvent"
+  } ]
+}

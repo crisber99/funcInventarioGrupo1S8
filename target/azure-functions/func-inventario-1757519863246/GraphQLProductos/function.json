@@ -1,0 +1,16 @@
+{
+  "scriptFile" : "../func-inventario-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.producto.GraphQLProducto.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "route" : "graphqlProducto",
+    "methods" : [ "POST" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}

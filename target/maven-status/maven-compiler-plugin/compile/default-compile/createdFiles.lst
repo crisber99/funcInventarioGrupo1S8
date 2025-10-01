@@ -1,0 +1,10 @@
+com\function\bodega\FuncionBodega.class
+com\function\bodega\Bodega.class
+com\function\Function.class
+com\function\bodega\GraphQLBodega.class
+com\function\producto\GraphQLProducto$1.class
+com\function\producto\Producto.class
+com\function\producto\FuncionProducto.class
+com\function\producto\FuncionEvent.class
+com\function\bodega\GraphQLBodega$1.class
+com\function\producto\GraphQLProducto.class
